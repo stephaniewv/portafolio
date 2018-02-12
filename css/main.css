@@ -1,0 +1,91 @@
+body{
+  font-family: 'Rubik', sans-serif;
+}
+
+/* navbar */
+
+.navbar-header {
+  display: inline-block;
+}
+
+.nav-item .nav{
+  color: #7E305E;
+  line-height: 70px;
+}
+
+/* Primera section */
+
+.main-container {
+  background-image: url("../assets/background_home-01.svg");
+  background-repeat: no-repeat;
+  background-position: top right;
+  height: 60vh;
+  overflow: hidden;
+}
+
+#typed {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 700;
+  font-size: 55px;
+  color: #E75978;
+}
+
+#typedsecond {
+  font-family: 'Rubik', sans-serif;
+  color: #4D4D4D;
+  font-size: 41px;
+  font-weight: 700;
+}
+
+.container_name {
+  position: absolute;
+  top: 20%;
+  /* left: 10% */
+}
+
+/* Segunda section */
+
+
+@media (max-width: 767px) {
+  .navbar-toggleable-sm {
+    clear: both;
+  }
+  .main-container {
+    zoom: 0.7;
+  }
+
+  .container_name{
+    zoom: 0.7;
+    top: 15%;
+  }
+}
+
+
+
+/* .navbar-inner {
+  height: 70px;
+  overflow: hidden;
+  outline: 1px solid blue;
+}
+
+#navbar .nav-wrapper {
+  position: absolute;
+  right: 0;
+  top: 0;
+  outline: 1px solid red;
+}
+
+.menu ul {
+  list-style: none;
+}
+
+.menu ul li{
+  float: left;
+  /* padding: 30px; */
+  
+/* }
+
+.menu ul li a {
+  line-height: 70px;
+}
+ */ */
