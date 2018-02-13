@@ -19,7 +19,7 @@ body{
   background-image: url("../assets/background_home-01.svg");
   background-repeat: no-repeat;
   background-position: top right;
-  height: 60vh;
+  height: 78vh;
   overflow: hidden;
 }
 
@@ -39,12 +39,61 @@ body{
 
 .container_name {
   position: absolute;
-  top: 20%;
+  top: 22%;
   /* left: 10% */
 }
 
 /* Segunda section */
 
+.container-second {
+  margin: 20px;
+}
+
+.message.sent {
+  background: #efa4b14f;
+  border-radius: 5px 0px 5px 5px;
+  float: right;
+  padding: 8px 30px;
+  margin-top: 10px;
+}
+
+.avatar {
+  background-image: url(../assets/foto_mejorando2.png);
+  height: 300px;
+  width: 300px;
+  background-repeat: no-repeat;
+  background-position: top center;
+  border-radius: 50%;
+  background-size: 145% auto;
+  float: left;
+}
+
+/* Section 3 */
+.container-color{
+  margin-top: 40px;
+}
+
+.flex-container{
+  max-width: 860px;
+  width: 90%;
+  list-style-type: none;
+  margin: 20px auto;
+  padding: 10px;
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 20px;
+}
+
+.item{
+  height:250px;
+  width:250px;
+  line-height:200px;
+  font-size:20px;
+  background-color:steelblue;
+  color:#fff;
+  text-align:center;
+  margin:5px 5px; 
+}
 
 @media (max-width: 767px) {
   .navbar-toggleable-sm {
