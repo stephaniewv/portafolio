@@ -1,8 +1,13 @@
 body{
   font-family: 'Rubik', sans-serif;
+
 }
 
 /* navbar */
+#logo{
+  display:flex;
+  
+}
 
 .navbar-header {
   display: inline-block;
@@ -15,38 +20,56 @@ body{
 
 /* Primera section */
 
+.decoration{
+  background-color: #9B2671;
+  height: 1.5vh;
+}
+
 .main-container {
-  background-image: url("../assets/background_home-01.svg");
+  background-image: url("../assets/background_home.svg");
   background-repeat: no-repeat;
   background-position: top right;
-  height: 78vh;
+  height: 25em;
   overflow: hidden;
 }
 
 #typed {
   font-family: 'Rubik', sans-serif;
   font-weight: 700;
-  font-size: 55px;
+  font-size: 50px;
   color: #E75978;
 }
 
 #typedsecond {
   font-family: 'Rubik', sans-serif;
   color: #4D4D4D;
-  font-size: 41px;
+  font-size: 30px;
   font-weight: 700;
 }
 
 .container_name {
   position: absolute;
-  top: 22%;
+  top: 15%;
   /* left: 10% */
 }
 
 /* Segunda section */
 
-.container-second {
-  margin: 20px;
+.container-second{
+  margin-top: 50px;
+}
+
+.sent p{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  color: rgb(63, 63, 63);
+}
+
+.email p{
+  display: inline;
+  color: #E75978;
 }
 
 .message.sent {
@@ -59,13 +82,20 @@ body{
 
 .avatar {
   background-image: url(../assets/foto_mejorando2.png);
-  height: 300px;
-  width: 300px;
+  height: 220px;
+  width: 220px;
   background-repeat: no-repeat;
   background-position: top center;
   border-radius: 50%;
   background-size: 145% auto;
   float: left;
+  top: 30px;
+}
+
+
+.container-text {
+    display: flex;
+    justify-content: center;
 }
 
 /* Section 3 */
@@ -74,25 +104,69 @@ body{
 }
 
 .flex-container{
-  max-width: 860px;
+  max-width: 960px;
   width: 90%;
   list-style-type: none;
   margin: 20px auto;
-  padding: 10px;
+  /* padding: 10px; */
   display: flex;
   flex-flow: row wrap;
   margin-top: 20px;
 }
 
 .item{
-  height:250px;
-  width:250px;
+  height:280px;
+  width:280px;
   line-height:200px;
   font-size:20px;
   background-color:steelblue;
   color:#fff;
   text-align:center;
   margin:5px 5px; 
+}
+
+/* Section 4 */
+
+.fondo_bajo{
+  background-image: url(../assets/fondo_bajo.svg);
+  background-repeat: no-repeat;
+  height: 50vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.container-info{
+  text-align: center;
+}
+
+.centrado h2{
+  color: #9B2671;
+}
+
+.icons{
+  font-size: 4em;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+/* footer */
+
+.footer{
+  background-color: #9B2671;
+  height: 2.5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer p {
+  color: beige;
+  font-size: 0.8em;
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 @media (max-width: 767px) {
