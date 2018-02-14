@@ -151,6 +151,33 @@ body{
   margin-top: 20px;
 }
 
+#item1{
+ background-color: #87BCFB; 
+}
+
+#item2{
+  background-color: #B3ED58; 
+ }
+
+ #item3{
+  background-color: #FFF276; 
+ }
+
+ #item4{
+  background-color: #AF00AF; 
+ }
+
+ #item5{
+  background-color: #00A99D; 
+ }
+
+ #item6{
+  background-color: #FF931E; 
+ }
+ 
+
+
+ 
 /* footer */
 
 .footer{
