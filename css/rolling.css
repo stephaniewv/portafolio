@@ -1,0 +1,114 @@
+body{
+  font-family: 'Rubik', sans-serif;
+  padding: 0;
+  margin: 0;
+  background-image: url(../assets/fondo_bajo.svg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+#circulo {
+  height: 50px;
+  width: 50px;
+  display: table-cell;
+  text-align: center;
+  font-size: 18px;
+  vertical-align: middle;
+  border-radius: 50%;
+  background: #9B2671;
+  color: #ffff;
+}
+
+/*Navbar*/
+.bg-faded {
+  background: transparent;
+ 
+}
+
+#navbarNav a {
+  color: #9B2671;
+}
+
+.navbar-brand {
+  color: #9B2671;
+}
+
+#navbarNav {
+  position: absolute;
+  right: 10px;
+  z-index: 999;
+  width: max-content;
+}
+
+@media (min-width: 992px) {
+  
+.navbar-toggleable-md .navbar-collapse {
+  flex-direction: row-reverse;
+  }
+}
+
+
+@media only screen and (max-width: 991px) and (min-width: 100px)  {
+
+  #navbarNav {
+    top: 50px;
+    }
+}
+
+.main-container{
+  margin: auto;
+  padding: 40px;
+  text-align: justify;
+}
+
+
+.titulos {
+  justify-content: center;
+  color: #9B2671;
+}
+
+.titulos h3 {
+  color: #E75978;
+}
+
+
+
+/*imagenes*/
+.container-img{
+padding: 30px;
+display: flow-root;
+justify-content: center;
+}
+
+
+.text-center{
+text-align: center!important;
+}
+
+
+/* Portafolio */
+
+section.trabajos {
+  margin-top: 10vh;
+}
+
+.card-img-top {
+  width: 100%;
+  border-top-left-radius: calc(.25rem - 1px);
+  border-top-right-radius: calc(.25rem - 1px);
+}
+
+.mx-auto {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.sb-preview .card .card-body {
+  padding: 1.5rem 1.5rem 0;
+}
+
+.sb-preview .card .card-footer {
+  padding: .75rem 1.5rem 1.5rem;
+  border: 0;
+  background: transparent;
+}
