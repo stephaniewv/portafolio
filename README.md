@@ -26,6 +26,10 @@ Se ha realizado el siguiente skecth con la finalidad de poder plasmar la idea.
 
 ![logo](assets/img/mockup.png)
 
+2. Vista Final
+
+![logo](assets/img/img.png)
+
 
 ### **Integrante**
 
